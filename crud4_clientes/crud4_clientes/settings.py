@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'crud4_clientes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_clientes',
+        'NAME': 'clientes',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
